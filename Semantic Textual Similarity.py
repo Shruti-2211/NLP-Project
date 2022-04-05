@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri May 28 19:27:04 2021
-
-@author: SNB
-"""
-
 #Import Required Packages
 
 import pandas as pd
@@ -49,7 +42,7 @@ for i in range(len(whole_text)):
 print(sim_docs)
 
 #File path for writing the similarity score document
-write_file = "E:\Shruti\Study\MBA\DRIVES\Company Task\Precily Assessment(28 May)\Similarity_Score.csv"
+write_file = "Similarity_Score.csv"
 
 #Write the Dataframe into csv file
 sim_docs.to_csv(write_file, index = False)
